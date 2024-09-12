@@ -2,6 +2,7 @@
 
 ## Description
 This project is a credit card validator written in C. It validates credit card numbers using the Luhn algorithm and identifies the card type (VISA, AMEX, MASTERCARD) based on the number's format.
+*May not be entirely accurate all the time as there are exceptions, and this is solely based on known/existing theories & algorithms such as identifying mathematical formulas!*
 
 ## Features
 - Validate credit card numbers using the Luhn algorithm
@@ -21,7 +22,7 @@ This project is a credit card validator written in C. It validates credit card n
    ```bash
    make credit
    ```
-
+   
 ## Usage
 1. Run the application:
    ```bash
@@ -36,6 +37,11 @@ $ ./credit
 Number: 4111111111111111
 VISA
 ```
+
+![image](https://github.com/user-attachments/assets/a12d9aab-22b1-4bc2-a5b4-348e2279376f)
+
+![image](https://github.com/user-attachments/assets/75d233d9-4a79-4952-b138-1e61321a52b3)
+
 
 ## Contributing
 1. Fork the repository.
